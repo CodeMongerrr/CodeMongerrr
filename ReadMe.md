@@ -1,4 +1,4 @@
-#  About Me:
+# 👨‍💻 About Me:
 As an aspiring Blockchain Developer pursuing an Integrated Master of Technology at IIT ISM Dhanbad, I am fully immersed in the Web3 ecosystem. I am passionate about exploring and implementing innovative use cases that leverage the power of blockchain technology.
 
 
