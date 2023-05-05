@@ -22,6 +22,5 @@ As an aspiring Blockchain Developer pursuing an Integrated Master of Technology 
 ![](https://github-contributor-stats.vercel.app/api?username=CodeMongerrr&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=CodeMongerrr&icon=2&color=12)](https://visitcount.itsvg.in)
-
+[![](https://visitcount.itsvg.in/api?id=CodeMongerrr&label=Tech%20Enthusiasts&color=12&icon=2&pretty=true)](https://visitcount.itsvg.in)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
