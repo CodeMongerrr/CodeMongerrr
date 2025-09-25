@@ -27,7 +27,7 @@ I'm a **Full Stack Blockchain Developer** specializing in **Ethereum development
 - **SimplyFi InfoTech Solutions (2023)**: Created a multichain crypto wallet with send, receive, and swap features, integrated with GraphQL and secure key derivation.
 
 ## 🏆 Highlights
-- Participated in **ETHBangkok** and 5+ blockchain hackathons, networking with industry leaders at **DevCon**.
+- Winner at **ETHBangkok** and 5+ blockchain hackathons, networking with industry leaders at **DevCon** and **Pragma Bangkok**.
 - **Blockchain Mentor** at CyberLabs, IIT ISM Dhanbad.
 - **Coordinator** at LightsCameraISM, videography club.
 
