@@ -15,11 +15,11 @@ I'm a **Full Stack Blockchain Developer** specializing in **Ethereum development
 - **Security**: FHE, AES, RSA, Ring Signatures
 
 ## 🌟 Key Projects
-- **[FHE Multi-Signature Token System](https://github.com/CodeMongerrr)**: ERC20 token system with Zama’s TFHE for encrypted transfers and Safe wallets.
-- **[Bellman zkSNARK Circuit](https://github.com/CodeMongerrr)**: Rust-based ZKP circuit for private multiplication constraints.
-- **[Certicryp](https://github.com/CodeMongerrr/Certicryp)**: Built a decentralized certificate management system using Soulbound ERC721 tokens on Polygon
-- **[Cross-Chain Escrow Scheduler](https://github.com/CodeMongerrr/CrossChainEscrow)**: Created a Go CLI tool for cross-chain asset locking and scheduling using Espresso Systems.
-- **[Ring Signatures in Rust](https://github.com/CodeMongerrr/RingSignaturesRust)**: Implemented RSA ring signatures for private, untraceable transactions, demonstrating advanced cryptography skills.
+- **FHE Multi-Signature Token System**: ERC20 token system with Zama’s TFHE for encrypted transfers and Safe wallets.
+- **Bellman zkSNARK Circuit**: Rust-based ZKP circuit for private multiplication constraints.
+- **Certicryp**: Built a decentralized certificate management system using Soulbound ERC721 tokens on Polygon
+- **Cross-Chain Escrow Scheduler**: Created a Go CLI tool for cross-chain asset locking and scheduling using Espresso Systems.
+- **Ring Signatures in Rust**: Implemented RSA ring signatures for private, untraceable transactions, demonstrating advanced cryptography skills.
 
 ## 💼 Internships
 - **Nethermind (2024)**: Enhanced Starknet's block explorer Voyager and P2P networking in Juno, improving transaction visibility and node communication efficiency.
