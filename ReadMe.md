@@ -32,7 +32,7 @@ I'm a **Full Stack Blockchain Developer** specializing in **Ethereum development
 - **Coordinator** at LightsCameraISM, videography club.
 
 ## 📫 Get in Touch
-- **Email**: [ajstylesmb@gmail.com](mailto:ajstylesmb@gmail.com)
+- **Email**: [joshionchain@gmail.com](mailto:joshionchain@gmail.com)
 - **LinkedIn**: [Aditya Joshi](https://www.linkedin.com/in/adityaroshanjoshiiitism/) 
 - **X**: [@JoshiOnChain](https://x.com/JoshiOnChain)
 
