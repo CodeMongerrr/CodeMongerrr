@@ -1,73 +1,67 @@
-# Hey, I'm Aditya Joshi
+# Aditya Joshi
 
-**Backend & Blockchain Infrastructure Engineer** | IIT ISM '25
+**Backend and infrastructure engineer.** I gravitate to the unglamorous parts that decide whether a product actually stays up: ingestion pipelines, integration layers, data at scale, protocol work, and the deploy machinery wrapped around all of it.
 
-Building reliable, high-performance systems around Ethereum and L2s. I work primarily with **Go** and **Rust**, solving problems in indexing, P2P networking, mempool pipelines, and protocol engineering.
+Most of my day goes into turning messy, real world systems into things that are boring in the best possible way. Reliable. Lately that has meant EV telematics for a few thousand vehicles, a freight and logistics platform, open source in the Zcash ecosystem, and Ethereum infrastructure on the side. I am a polyglot by necessity: Go, Rust, TypeScript and Solidity, with a fair amount of Java and Python. I am about as comfortable at a raw TCP device port as I am at a GraphQL API three layers up.
+
+Based in Mumbai. IIT ISM '25.
 
 <p>
+  <a href="https://www.joshionchain.com"><img src="https://img.shields.io/badge/Website-joshionchain.com-1a1a1a?style=flat&logo=firefox&logoColor=white" /></a>
   <a href="https://x.com/JoshiOnChain"><img src="https://img.shields.io/badge/X-@JoshiOnChain-000000?style=flat&logo=x&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/adityaroshanjoshiiitism/"><img src="https://img.shields.io/badge/LinkedIn-Aditya_Joshi-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://ethresear.ch/u/codemongerrr/summary"><img src="https://img.shields.io/badge/ethresear.ch-codemongerrr-2b2b2b?style=flat&logo=ethereum&logoColor=white" /></a>
   <a href="mailto:joshionchain@gmail.com"><img src="https://img.shields.io/badge/Email-joshionchain@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
-### Currently Building
+### What I am building right now
 
-- MEV detection & mitigation tooling for DeFi protocols
-- Cognitive augmentation systems with persistent AI memory
-- Privacy-preserving token standards using FHE
-
----
-
-### What I Work On
-
-**Blockchain Infrastructure** -- Ethereum JSON-RPC, event log indexers, light clients, node tooling, reorg handling  
-**Applied Cryptography** -- FHE/TFHE token flows, ZK circuits (Groth16), ring signatures, FFS verification  
-**Backend Systems** -- Concurrent Go services, indexing pipelines, caching layers, WebSocket feeds  
-**Smart Contracts** -- Solidity, Account Abstraction, ERC/EIP standards, on-chain trading systems
+- **Fleet scale EV telematics.** Backend for a platform tracking thousands of vehicles in production: device ingestion over the GT06 protocol, Kafka into time series storage, multiple OEM integrations, geofencing, and the source arbitration logic that keeps two feeds on the same vehicle from corrupting each other.
+- **A freight and logistics platform.** Bookings, auctions and bidding, payment reconciliation, driver and shipper flows, transactional notifications, and the CI/CD that ships all of it to the cloud.
+- **Open source in privacy tech.** Contributing to the Zcash ecosystem: [ragu](https://github.com/tachyon-zcash/ragu), a proof carrying data framework in Rust, plus work across [Zebra](https://github.com/ZcashFoundation/zebra) and librustzcash.
+- **ea**, an autonomous AI chief of staff built on durable, crash safe workflow steps.
+- Ethereum infrastructure for the fun of it: a concurrent event log indexer and a light client, both in Go.
 
 ---
 
-### Tech Stack
+### The range
+
+I do not fit neatly in one box, and that is on purpose.
+
+`Backend systems` &nbsp;·&nbsp; `Infra and DevOps` &nbsp;·&nbsp; `Protocol and blockchain` &nbsp;·&nbsp; `Applied cryptography` &nbsp;·&nbsp; `AI systems`
+
+---
+
+### Featured public work
+
+| Project | Stack | What it is |
+|---------|-------|------------|
+| [**eth-log-indexer**](https://github.com/CodeMongerrr/eth-log-indexer) | Go | Concurrent Ethereum event log indexer with historical backfill, live subscriptions, checkpointing and reorg handling |
+| [**eth-light-client**](https://github.com/CodeMongerrr/eth-light-client) | Go | Minimal Ethereum light client that syncs via block headers and Merkle proofs |
+| [**cognitive_prosthetic**](https://github.com/CodeMongerrr/cognitive_prosthetic) | Python | AI powered memory and cognitive augmentation tool, my most starred project |
+| [**CRC20-Token-Standards**](https://github.com/CodeMongerrr/CRC20-Token-Standards) | Solidity | Privacy preserving token standard built on Zama's fhEVM and FHE |
+| [**Ring_Signature_Implementation**](https://github.com/CodeMongerrr/Ring_Signature_Implementation) | Rust | RSA based ring signature scheme with a full sign and verify pipeline |
+| [**Load_Balancer**](https://github.com/CodeMongerrr/Load_Balancer) | Rust | Round robin HTTP load balancer, a small study in systems programming |
+
+---
+
+### Open source
+
+- [**tachyon-zcash/ragu**](https://github.com/tachyon-zcash/ragu): added `Element::batch_invert` to the primitives, and set up cargo-fuzz on a pinned nightly for continuous fuzzing.
+- **Zcash ecosystem**: contributions and hands on work across Zebra, librustzcash and ZecHub.
+
+---
+
+### Tech I reach for
 
 ```
-Languages     Go | Rust | TypeScript | Python | Solidity | SQL
-Infra         Docker | Redis | PostgreSQL | BoltDB | gRPC | CI/CD
-Blockchain    Ethereum | StarkNet | L2s/Rollups | The Graph | Account Abstraction
-Crypto        FHE (TFHE/fhEVM) | ZK-SNARKs | Ring Signatures | Merkle Proofs
+Languages   Go  ·  Rust  ·  TypeScript  ·  Solidity  ·  Python  ·  Java
+Backend     Kafka  ·  Redis  ·  PostgreSQL  ·  MongoDB  ·  InfluxDB  ·  GraphQL  ·  gRPC
+Infra       Docker  ·  Kubernetes  ·  Cloud Run  ·  GitHub Actions  ·  CI/CD
+Chain       Ethereum  ·  L2s and rollups  ·  FHE (fhEVM)  ·  ZK-SNARKs  ·  Account Abstraction
 ```
-
----
-
-### Featured Work
-
-| Project | Stack | What it does |
-|---------|-------|-------------|
-| [**eth-log-indexer**](https://github.com/CodeMongerrr/eth-log-indexer) | Go | Concurrent Ethereum event indexer with historical backfill, live subscriptions, checkpointing & reorg handling |
-| [**MEV-Shield**](https://github.com/CodeMongerrr/MEV-Shield) | TypeScript | Defensive tooling to detect and mitigate MEV extraction in DeFi |
-| [**eth-light-client**](https://github.com/CodeMongerrr/eth-light-client) | Go | Minimal Ethereum light client syncing via block headers and Merkle proofs |
-| [**CRC20-Token-Standards**](https://github.com/CodeMongerrr/CRC20-Token-Standards) | Solidity | Privacy-preserving token standard using Zama's fhEVM and FHE |
-| [**Ring Signatures**](https://github.com/CodeMongerrr/Ring_Signature_Implementation) | Rust | RSA ring signature scheme with full sign/verify pipeline |
-| [**FFS Verification**](https://github.com/CodeMongerrr/FFS-Modular-Verification-Framework) | Rust | Feige-Fiat-Shamir zero-knowledge identification protocol |
-
----
-
-### Experience
-
-**Nethermind** -- Protocol / Backend Intern  
-Worked on [Juno](https://github.com/NethermindEth/juno) (StarkNet client) P2P networking reliability and Voyager explorer backend.
-
-**Gusto Development** -- Blockchain Infra Intern  
-AMM/DEX components, subgraph indexing via The Graph, production smart contract integrations.
-
----
-
-### Highlights
-
-- Speaker at **ETHBangkok / DevCon 2024**
-- Hackathon wins across ETHGlobal-style events
-- **Blockchain Lead @ CyberLabs**, IIT ISM Dhanbad
 
 ---
 
@@ -79,3 +73,5 @@ AMM/DEX components, subgraph indexing via The Graph, production smart contract i
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeMongerrr&theme=transparent&hide_border=true" />
 </p>
+
+<p align="center"><i>If you are working on hard backend, infra or protocol problems, I am always up for a conversation. Reach me on any channel above.</i></p>
