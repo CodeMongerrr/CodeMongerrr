@@ -65,6 +65,24 @@ Chain       Ethereum  ·  L2s and rollups  ·  FHE (fhEVM)  ·  ZK-SNARKs  ·  A
 
 ---
 
+### Experience
+
+**Nethermind** &nbsp;·&nbsp; Protocol and Backend Intern
+Worked on [Juno](https://github.com/NethermindEth/juno), the StarkNet client, on P2P networking reliability and the Voyager explorer backend.
+
+**Gusto Development** &nbsp;·&nbsp; Blockchain Infrastructure Intern
+AMM and DEX components, subgraph indexing on The Graph, and production smart contract integrations.
+
+---
+
+### A few highlights
+
+- Speaker at **ETHBangkok** and **DevCon 2024**
+- Hackathon wins across ETHGlobal style events
+- **Blockchain Lead** at CyberLabs, IIT ISM Dhanbad
+
+---
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=CodeMongerrr&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodeMongerrr&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="150" />
