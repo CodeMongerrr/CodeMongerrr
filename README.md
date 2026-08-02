@@ -39,7 +39,7 @@ I do not fit neatly in one box, and that is on purpose.
 | Project | Stack | What it is |
 |---------|-------|------------|
 | [**eth-log-indexer**](https://github.com/CodeMongerrr/eth-log-indexer) | Go | Concurrent Ethereum event log indexer with historical backfill, live subscriptions, checkpointing and reorg handling |
-| [**eth-light-client**](https://github.com/CodeMongerrr/eth-light-client) | Go | Minimal Ethereum light client that syncs via block headers and Merkle proofs |
+| [**Weather-Telemetry**](https://github.com/CodeMongerrr/Weather-Telemetry) | TypeScript | Real time weather telemetry pipeline: data ingestion, processing and a live feed |
 | [**cognitive_prosthetic**](https://github.com/CodeMongerrr/cognitive_prosthetic) | Python | AI powered memory and cognitive augmentation tool, my most starred project |
 | [**CRC20-Token-Standards**](https://github.com/CodeMongerrr/CRC20-Token-Standards) | Solidity | Privacy preserving token standard built on Zama's fhEVM and FHE |
 | [**Ring_Signature_Implementation**](https://github.com/CodeMongerrr/Ring_Signature_Implementation) | Rust | RSA based ring signature scheme with a full sign and verify pipeline |
