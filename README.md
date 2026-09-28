@@ -1,90 +1,81 @@
 # Aditya Joshi
 
-**Founding engineer. I build the backends that keep real machines honest: EV fleets, freight trucks, and the full nodes that secure money.**
+**Forward deployed founding engineer. Hand me a messy business problem and I will find what is actually broken, then ship the system that fixes it.**
 
-I get genuinely excited about the unglamorous layer: ingestion pipelines, deploy machinery, routing engines and protocol code. The stuff nobody notices until it breaks, and that I make sure doesn't. Go, Rust and TypeScript by day, cryptography and Solidity for fun.
+I build the backends, integrations and data pipelines behind logistics, EV fleet telematics and crypto infrastructure, and I own the work end to end, from system design and APIs to partner integrations, cloud, security and production support. I work directly with founders, customers and partners. Two startup platforms built from scratch, ex-Nethermind, and the author of both security fixes in Zcash's Zebra v6.2.2.
+
+I ship well-tested, documented, production-guarded work, and I write the design docs and cost briefs behind the big calls.
 
 <p>
 <a href="https://www.linkedin.com/in/joshionchain/"><img src="https://img.shields.io/badge/LinkedIn-joshionchain-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
 <a href="https://x.com/JoshiOnChain"><img src="https://img.shields.io/badge/X-@JoshiOnChain-000000?style=flat&logo=x&logoColor=white" /></a>
 <a href="https://www.joshionchain.com"><img src="https://img.shields.io/badge/Website-joshionchain.com-1a1a1a?style=flat&logo=googlechrome&logoColor=white" /></a>
-<a href="https://ethresear.ch/u/codemongerrr/summary"><img src="https://img.shields.io/badge/ethresear.ch-codemongerrr-2b2b2b?style=flat&logo=ethereum&logoColor=white" /></a>
 <a href="mailto:joshionchain@gmail.com"><img src="https://img.shields.io/badge/Email-joshionchain@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
-### Right now
+### Now
 
-#### BatteryFlow · Founding Engineer · Jun 2026 to present
-EV fleet telemetry: a platform streaming millions of events a day from thousands of electric vehicles.
+#### BatteryFlow · Founding Engineer (Forward Deployed) · Jun 2026 to present
+An EV fleet platform tracking **3,000+ electric vehicles** and **3.7M events a day**. I was brought in to find and fix its hardest problems.
 
-> Almost all of this lives in BatteryFlow's private GitLab, so the graph below barely sees it: **515 commits across ~20 repos in three months.** Here is what they bought.
+> Almost all of this lives in BatteryFlow's private GitLab, so the contribution graph below barely sees it.
 
-- **All-India routing for about $30 a month.** Self-hosted OSRM doing 2,270 req/s on 2 vCPUs at a 4 ms median, instead of paying Google $5 per 1,000 requests.
-- **A trip platform from zero.** Routes, corridor deviation, ETAs and alerts across 5 services, guarded by a 106,751-case differential test and a 2,297-case golden corpus that replays on every build.
-- **A ghost in the telemetry.** Two devices on one vehicle were overwriting one Redis key. I built a rig that runs the deployed code verbatim, replayed 2.88M packets at 2,000-vehicle scale, counted 705k impossible-speed readings, and designed per-feed state lanes that took them to zero.
-- **Production fixes on live ingestion**, including unblocking a partner feed that had rejected 613k packets.
-- **BatteryFlow Rental, solo, in 18 days.** 181 commits: Cloudflare Workers and D1, HMAC-verified payment webhooks, and tenant-isolation tests that fail the build.
+- **Route planning in 2 weeks.** A feature the team had never cracked, now powered by an in-house routing engine for all of India that handles **2,000+ routes a second on just 2 CPUs**, with 1,000x room to grow at a fixed cost.
+- **Data operators can trust.** Revived a partner feed that had dropped **613k packets**, zeroed **705k impossible-speed readings** and ended **6.8M junk errors a week** sent to the partner, so alerts run on clean data.
+- **Fleet onboarding.** Led onboarding for a national battery-swap network and a new OEM partner, then architected self-serve onboarding so business teams can launch new fleet customers without engineering in the loop.
+- **A second product in 18 days.** Single-handedly built BatteryFlow Rental for riders and warehouses (181 commits, 38 PRs) with verified payment webhooks, OTP login and tenant-isolation tests that fail the build.
 
-`TypeScript` `Deno` `Kafka` `Redis` `PostgreSQL` `MongoDB` `InfluxDB` `GraphQL` `OSRM` `GKE` `BigQuery` `Cloudflare Workers`
-
----
-
-### Open source: Zcash
-
-- **Two security fixes in [Zebra v6.2.2](https://github.com/ZcashFoundation/zebra/releases/tag/v6.2.2)**, the Zcash Foundation's full node. I picked up two open audit findings, reproduced the shell injection in `zebrad-log-filter` with a crafted log line, rewrote the filter so log text never reaches a shell ([#11050](https://github.com/ZcashFoundation/zebra/pull/11050)), and kept the Elasticsearch password out of the startup config dump ([#11051](https://github.com/ZcashFoundation/zebra/pull/11051)). Both merged within 31 hours.
-- **4 merged PRs in Zebra**, and one of the 21 named contributors to [Zebra v6.4.0](https://zfnd.org/zebra-6-4-0-and-6-4-1-release/).
-- Merged work in [librustzcash](https://github.com/zcash/librustzcash/pull/2624) and ZecHub, including a fix that brought 45 missing hackathon projects back to [zechub.wiki](https://github.com/ZecHub/zechub-wiki/pull/652).
-- Dug into CI for Tachyon's [ragu](https://github.com/tachyon-zcash/ragu) and root-caused 16 straight failed fuzzing runs to a toolchain MSRV bump.
+`TypeScript` `Kafka` `Redis` `PostgreSQL` `BigQuery` `Apollo GraphQL` `Kubernetes` `GCP`
 
 ---
 
 ### Previously
 
-#### BharatTruck · Founding Engineer · Jan to Aug 2026
-Built the backend of an Indian freight marketplace from the first commit.
+#### BharatTruck · Sole Founding Engineer · Jan to Aug 2026
+An Indian freight marketplace for shippers, carriers and drivers. The founders brought the vision for scale, cost, legal and tax compliance. **I designed, built, hosted and ran every layer of it**, from zero to its first paid trip in production in 4 months.
 
-- **7 services, a gateway and a unified app** on GCP Cloud Run and Supabase Postgres. I authored 125 of the first 126 merged PRs.
-- **CI was green. Production wasn't.** Deploys had silently failed for 3 weeks after a monorepo move. I rebuilt the pipeline with post-deploy health probes, and it shipped 115 production deploys in the next 31 days.
-- **A freight pricing engine in a day.** Four layers (cost floor, routed road distance, 60+ corridor market rates, quote reconciliation) that matched the fleet's own cost model to 0.5% median error.
-- **Pre-launch hardening:** closed 34 review findings in 2 weeks.
+- **Quotes that cover the real cost of a trip.** Replaced flat pricing that underpriced fuel by **38%** with a 4-layer pricing engine, built in one day, that matches the fleet's own cost model to **0.5% median error**.
+- **Delivery restored.** Deploys had silently failed for 3 weeks. I rebuilt CI/CD with health probes, then shipped **115 production deploys in 31 days** across 7 microservices, authoring 125 of the first 126 PRs.
+- **Accounts protected before launch.** Closed **34 review findings in 2 weeks** (11 PRs in a day), including open writes to the pricing tables behind every quote and reset tokens that worked as full logins.
+- **Live truck tracking inside Google Maps' free tier.** One cached ETA call per trip every 45 seconds, so the mapping bill stays flat however many people watch a truck at once.
 
-`TypeScript` `Fastify` `Next.js` `PostgreSQL` `Supabase` `Redis` `Cloud Run` `Cloud Build`
+`TypeScript` `Fastify` `Next.js` `PostgreSQL` `Redis` `GCP` `CI/CD`
 
 #### Gusto Development · Blockchain Developer (part-time) · Sep 2025 to Jan 2026
-Janction DEX on JASMY Chain: pool initialization, swap execution, and a Subgraph for swaps, liquidity and fee growth.
+Custom-built swap execution for **Janction DEX**, a Uniswap V3-style exchange on JASMY Chain, around the client's Japan-specific market requirements that standard DEX logic could not handle, plus its Subgraph analytics.
 
 #### Nethermind · Research Intern · May to Aug 2024
-Worked on [Juno](https://github.com/NethermindEth/juno), Nethermind's Starknet full node in Go (P2P, sync and RPC code paths).
+Joined the core-infrastructure team behind one of Ethereum's leading execution clients to work on [Juno](https://github.com/NethermindEth/juno), Nethermind's Go full node for Starknet, across P2P networking, chain sync and the JSON-RPC API. Chased a P2P bug where nodes never rejoined peers after going offline and briefed the core maintainers.
 
 ---
 
-### Side quests
+### Open source
 
-| Project | Stack | What it does |
-|---|---|---|
-| [**MEV-Shield**](https://github.com/CodeMongerrr/MEV-Shield) | TypeScript | Replays sandwich attacks in exact Uniswap V2 integer math on live mainnet reserves. Models why swaps under ~13 ETH are not worth attacking, then searches up to 1,100 public and private route splits per trade. |
-| [**Weather-Telemetry**](https://github.com/CodeMongerrr/Weather-Telemetry) | TypeScript | Real-time telemetry pipeline: token-bucket rate-limited ingestion, Redis Streams consumers and a live feed. |
-| [**eth-log-indexer**](https://github.com/CodeMongerrr/eth-log-indexer) | Go | Parallel Ethereum event log backfill: 50 workers, adaptive 500-block ranges, sharded BoltDB. |
-| [**cognitive_prosthetic**](https://github.com/CodeMongerrr/cognitive_prosthetic) | Python | AI powered memory and cognitive augmentation tool, my most starred project. |
-| [**CRC20-Token-Standards**](https://github.com/CodeMongerrr/CRC20-Token-Standards) | Solidity | Privacy-preserving token standard on Zama's fhEVM, built on fully homomorphic encryption. |
-| [**Ring_Signature_Implementation**](https://github.com/CodeMongerrr/Ring_Signature_Implementation) | Rust | RSA ring signatures with a full sign and verify pipeline. |
-| [**Load_Balancer**](https://github.com/CodeMongerrr/Load_Balancer) | Rust | Round-robin HTTP load balancer with health checks. |
+- **Wrote both security fixes in [Zebra v6.2.2](https://github.com/ZcashFoundation/zebra/releases/tag/v6.2.2)**, the full node of a $26B+ privacy network, with both merged in 31 hours. One closed a shell-injection path so a malicious log line can no longer run commands on a node operator's machine ([#11050](https://github.com/ZcashFoundation/zebra/pull/11050)). The other stopped the Elasticsearch password leaking into the startup config dump ([#11051](https://github.com/ZcashFoundation/zebra/pull/11051)).
+- **4 merged PRs in Zebra**, and one of the 21 named contributors to [Zebra v6.4.0](https://zfnd.org/zebra-6-4-0-and-6-4-1-release/).
+- Merged work in [librustzcash](https://github.com/zcash/librustzcash/pull/2624) and ZecHub, including a fix that brought 45 missing hackathon projects back to [zechub.wiki](https://github.com/ZecHub/zechub-wiki/pull/652).
 
 ---
 
-### Tech I reach for
+### Things I built on my own
 
-```
-Languages   Go · Rust · TypeScript · Solidity · Python
-Data        Kafka · Redis · PostgreSQL · MongoDB · InfluxDB · BigQuery · GraphQL
-Infra       Docker · Kubernetes (GKE) · Cloud Run · Cloudflare Workers · CI/CD
-Chain       Ethereum · Zcash · FHE (fhEVM) · ZK-SNARKs · MEV
-```
+- **[MEV Shield](https://github.com/CodeMongerrr/MEV-Shield)** · Cut the modeled sandwich-attack loss on a **$660K (250 ETH) swap** from $35.9K to under $1K, a **97% reduction**, by simulating the attacking bot on live Ethereum data and picking the cheapest safe route across up to 1,100 public and private route splits.
+- **[Earshot](https://www.npmjs.com/package/@jino-labs/earshot)** · Watch and steer Claude Code agent sessions across machines from one page, **end-to-end encrypted** so the relay never sees code or prompts, with guest links that can watch but never issue commands. Published on npm with zero runtime dependencies.
+- **[Streaming ingest pipeline](https://github.com/CodeMongerrr/stream-ingest-pipeline)** · Crash-safe ingestion with Redis Streams consumer groups, 50 async workers and one atomic rate limiter shared across every replica, so scaling out never breaks the upstream quota.
+- **[GKE on Terraform](https://github.com/CodeMongerrr/GKE-Kubernetes)** · Infrastructure as code for Google Kubernetes Engine, with Kustomize overlays, smoke tests that roll back automatically, disruption budgets and anti-affinity.
+- **[CRC20](https://github.com/CodeMongerrr/CRC20-Token-Standards)** · A privacy-preserving token standard on Zama's fhEVM, built on fully homomorphic encryption.
 
-IIT (ISM) Dhanbad, class of 2026 · Blockchain Lead at CyberLabs, IIT ISM · Mumbai
+---
 
-<p align="center"><img src="https://streak-stats.demolab.com/?user=CodeMongerrr&theme=transparent&hide_border=true" /></p>
+### Skills
 
-<p align="center"><i>Working on hard backend, infra or protocol problems? I would love to hear about it.</i></p>
+- **Languages and frameworks** · TypeScript, Python, Go, Rust, SQL, Solidity, Node.js, Fastify, React, Next.js, Apollo GraphQL
+- **AI engineering** · LLM agents, tool calling, RAG, vector search, MCP servers, Claude Agent SDK, structured outputs, guardrails
+- **Distributed systems** · Event-driven microservices, Kafka, Redis, PostgreSQL, BigQuery, Kubernetes, GCP, Terraform, CI/CD
+- **Web3 and security** · Ethereum, smart contracts, DeFi, MEV, Zcash, Starknet, P2P networking, application security, tenant isolation
+
+IIT (ISM) Dhanbad · Integrated Master of Technology · class of 2026 · Mumbai, open to relocation (US, UK, UAE)
+
+<p align="center"><i>Got a problem where the hard part is figuring out what is actually broken? I would love to hear about it.</i></p>
