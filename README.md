@@ -1,17 +1,21 @@
-# Aditya Joshi
+<p align="center">
+<img alt="Aditya Joshi, forward deployed founding engineer" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0f172a,100:1e3a8a&text=Aditya%20Joshi&fontColor=e6edf3&fontSize=52&fontAlignY=36&desc=Forward%20deployed%20founding%20engineer&descAlignY=58&descSize=18" />
+</p>
 
-**Forward deployed founding engineer. Hand me a messy business problem and I will find what is actually broken, then ship the system that fixes it.**
+<p align="center">
+<img alt="Hand me a messy business problem. I will find what is actually broken, then ship the system that fixes it." src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2600&pause=1400&color=58A6FF&center=true&vCenter=true&width=640&height=32&lines=Hand+me+a+messy+business+problem.;I+will+find+what+is+actually+broken,;then+ship+the+system+that+fixes+it." />
+</p>
 
-I build the backends, integrations and data pipelines behind logistics, EV fleet telematics and crypto infrastructure, and I own the work end to end, from system design and APIs to partner integrations, cloud, security and production support. I work directly with founders, customers and partners. Two startup platforms built from scratch, ex-Nethermind, and the author of both security fixes in Zcash's Zebra v6.2.2.
-
-I ship well-tested, documented, production-guarded work, and I write the design docs and cost briefs behind the big calls.
-
-<p>
+<p align="center">
 <a href="https://www.linkedin.com/in/joshionchain/"><img src="https://img.shields.io/badge/LinkedIn-joshionchain-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
 <a href="https://x.com/JoshiOnChain"><img src="https://img.shields.io/badge/X-@JoshiOnChain-000000?style=flat&logo=x&logoColor=white" /></a>
 <a href="https://www.joshionchain.com"><img src="https://img.shields.io/badge/Website-joshionchain.com-1a1a1a?style=flat&logo=googlechrome&logoColor=white" /></a>
 <a href="mailto:joshionchain@gmail.com"><img src="https://img.shields.io/badge/Email-joshionchain@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
+
+I build the backends, integrations and data pipelines behind logistics, EV fleet telematics and crypto infrastructure, and I own the work end to end, from system design and APIs to partner integrations, cloud, security and production support. I work directly with founders, customers and partners. Two startup platforms built from scratch, ex-Nethermind, and the author of both security fixes in Zcash's Zebra v6.2.2.
+
+I ship well-tested, documented, production-guarded work, and I write the design docs and cost briefs behind the big calls.
 
 ---
 
@@ -70,6 +74,10 @@ Joined the core-infrastructure team behind one of Ethereum's leading execution c
 ---
 
 ### Skills
+
+<p align="center">
+<img alt="Tech stack" src="https://skillicons.dev/icons?i=ts,py,go,rust,solidity,nodejs,react,nextjs,graphql,kafka,redis,postgres,kubernetes,gcp,terraform&perline=15" />
+</p>
 
 - **Languages and frameworks** · TypeScript, Python, Go, Rust, SQL, Solidity, Node.js, Fastify, React, Next.js, Apollo GraphQL
 - **AI engineering** · LLM agents, tool calling, RAG, vector search, MCP servers, Claude Agent SDK, structured outputs, guardrails
