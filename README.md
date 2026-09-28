@@ -7,15 +7,17 @@
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/joshionchain/"><img src="https://img.shields.io/badge/LinkedIn-joshionchain-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-<a href="https://x.com/JoshiOnChain"><img src="https://img.shields.io/badge/X-@JoshiOnChain-000000?style=flat&logo=x&logoColor=white" /></a>
-<a href="https://www.joshionchain.com"><img src="https://img.shields.io/badge/Website-joshionchain.com-1a1a1a?style=flat&logo=googlechrome&logoColor=white" /></a>
-<a href="mailto:joshionchain@gmail.com"><img src="https://img.shields.io/badge/Email-joshionchain@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/joshionchain/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1e3a8a?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://x.com/JoshiOnChain"><img alt="X" src="https://img.shields.io/badge/X-1e3a8a?style=for-the-badge&logo=x&logoColor=white" /></a>
+<a href="https://www.joshionchain.com"><img alt="Website" src="https://img.shields.io/badge/Website-1e3a8a?style=for-the-badge&logo=nextdotjs&logoColor=white" /></a>
+<a href="mailto:joshionchain@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-1e3a8a?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-I build the backends, integrations and data pipelines behind logistics, EV fleet telematics and crypto infrastructure, and I own the work end to end, from system design and APIs to partner integrations, cloud, security and production support. I work directly with founders, customers and partners. Two startup platforms built from scratch, ex-Nethermind, and the author of both security fixes in Zcash's Zebra v6.2.2.
-
-I ship well-tested, documented, production-guarded work, and I write the design docs and cost briefs behind the big calls.
+<p align="center">
+<b>I own systems end to end, from first design to production.</b><br/>
+Logistics · EV fleets · Crypto infrastructure<br/>
+2 platforms built from scratch · ex-Nethermind · Zcash Zebra security fixes
+</p>
 
 ---
 
