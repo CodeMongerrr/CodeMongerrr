@@ -67,7 +67,7 @@ Joined the core-infrastructure team behind one of Ethereum's leading execution c
 
 ### Things I built on my own
 
-- **[MEV Shield](https://github.com/CodeMongerrr/MEV-Shield)** · Cut the modeled sandwich-attack loss on a **$660K (250 ETH) swap** from $35.9K to under $1K, a **97% reduction**, by simulating the attacking bot on live Ethereum data and picking the cheapest safe route.
+- **[MEV Shield](https://github.com/CodeMongerrr/MEV-Shield)** · Cut the modeled sandwich-attack loss on a **$660K (250 ETH) swap** from $35.9K to under $1K, a **97% reduction**, by simulating the attacking bot on live Ethereum data and picking the cheapest safe route. [Live demo](https://mev-shield.joshionchain.workers.dev)
 - **[Earshot](https://www.npmjs.com/package/@jino-labs/earshot)** · Watch and steer Claude Code agent sessions across machines from one page, **end-to-end encrypted** so the relay never sees code or prompts, with guest links that can watch but never issue commands. Published on npm with zero runtime dependencies.
 - **[Streaming ingest pipeline](https://github.com/CodeMongerrr/stream-ingest-pipeline)** · Crash-safe ingestion with Redis Streams consumer groups, 50 async workers and one atomic rate limiter shared across every replica, so scaling out never breaks the upstream quota.
 - **[GKE on Terraform](https://github.com/CodeMongerrr/GKE-Kubernetes)** · Infrastructure as code for Google Kubernetes Engine, with Kustomize overlays, smoke tests that roll back automatically, disruption budgets and anti-affinity.
